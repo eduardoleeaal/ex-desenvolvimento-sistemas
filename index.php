@@ -19,11 +19,11 @@
         </p>
 
         <p>
-            <input type="number" step="0.01" name="horasLigado" placeholder="Número de horas ligado por dia">
+            <input type="number" step="0.01" name="horasLigado" max="24" placeholder="Número de horas ligado por dia">
         </p>
 
         <p>
-            <input type="number" step="0.01" name="diasLigado" placeholder="Número de dias ligado ao mês">
+            <input type="number" step="1" name="diasLigado" max="31" placeholder="Número de dias ligado ao mês">
         </p>
 
         <p>
